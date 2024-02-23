@@ -3,26 +3,37 @@
 @tailwind utilities;
 
 * {
-   box-sizing: border-box;
-   margin: 0;
-   padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-   background-color: #f1e7db;
+  background-color: #f1e7db;
 }
 
 a {
-   text-decoration: none;
+  text-decoration: none;
 }
 
 li {
-   list-style-type: none;
+  list-style-type: none;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
 }
 
 /* Global */
 
 .globalWidth {
-   width: 672px;
-   margin: 0 auto;
+  width: 672px;
+  margin: 0 auto;
+  padding: 0 0.5rem;
+}
+
+.globalContainer {
+  margin-top: 100px;
 }
